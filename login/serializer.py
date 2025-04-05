@@ -1,8 +1,7 @@
-"""from django.contrib.auth.models import User
+from django.contrib.auth.models import User
 from rest_framework import serializers
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta():
         model = User
-        field = "__all__"
-"""
+        fields = ['id','username','email','password','groups']
