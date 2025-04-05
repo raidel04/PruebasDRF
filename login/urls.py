@@ -1,5 +1,5 @@
 from django.urls import path
-from login.serializer.view import MyAppi
+from view import MyAppi
 from rest_framework.routers import DefaultRouter
 
 
